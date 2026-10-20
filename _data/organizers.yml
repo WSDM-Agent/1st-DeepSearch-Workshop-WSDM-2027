@@ -1,13 +1,10 @@
 # Organizers, shown on the About page in this order.
-# To add a photo: put the image in assets/img/people/ and add "photo: <file name>".
+# To change a photo: put the image in assets/img/people/ and set "photo: <file name>".
+# Photos are shown in full, never cropped.
 - name: "Maolin Wang"
   affiliation: "City University of Hong Kong"
   photo: "maolin-wang.jpg"
-  url: "https://scholars.cityu.edu.hk/en/persons/maolwang2/"
-
-- name: "Wanyu Wang"
-  affiliation: "City University of Hong Kong"
-  initials: "WW"
+  url: "https://morin.wang/"
 
 - name: "Pengyue Jia"
   affiliation: "City University of Hong Kong"
@@ -21,7 +18,8 @@
 
 - name: "Chenyi Zhuang"
   affiliation: "Ant Group"
-  initials: "CZ"
+  photo: "chenyi-zhuang.jpg"
+  url: "https://scholar.google.com/citations?user=0T-gu4UAAAAJ"
 
 - name: "Yu Yang"
   affiliation: "City University of Hong Kong"

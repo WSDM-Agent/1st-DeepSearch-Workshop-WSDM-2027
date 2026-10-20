@@ -1,8 +1,9 @@
 # Invited speakers, shown on the About page.
-# To add a photo: put the image in assets/img/people/ and add "photo: <file name>".
+# To change a photo: put the image in assets/img/people/ and set "photo: <file name>".
 - name: "Rui Liu"
   affiliation: "Senior Technical Expert, Huawei"
-  initials: "RL"
+  photo: "rui-liu.jpg"
+  url: "https://ruiliu-ai.github.io/"
 
 - name: "Xiang Zheng"
   affiliation: "SciencePal Team & HKAI-Sci"

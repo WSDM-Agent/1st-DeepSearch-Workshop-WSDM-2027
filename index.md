@@ -14,9 +14,9 @@ nav: about
 
 Welcome to DeepSearch: 1st Workshop on Deep Search and Research Agents for the Web!
 
-Search is moving from engines to agents. Systems built on large language models (LLMs) can now plan a research question, issue dozens of searches, read and reason over what they find, and write a grounded answer or a full report, a paradigm widely known as deep search and deep research. These agents promise to change how people find information on the web, but they also raise questions that classic information retrieval (IR) has rarely had to answer. When should an agent search, and when should it stop? How should it be trained when the only reward is a final answer? How should its long trajectories and reports be evaluated? How should search engines serve a client that reads everything and never clicks? And how can the resulting systems be made faithful, safe and affordable at web scale?
+Search is moving from engines to agents. Systems built on large language models (LLMs) can now plan a research question, issue dozens of searches, read and reason over what they find, and write a grounded answer or a full report. This raises questions that classic information retrieval has rarely had to answer: when should an agent search and when should it stop, how should it be trained and evaluated, how should search engines serve a client that never clicks, and how can such systems be made faithful, safe and affordable at web scale?
 
-Building on the community formed by earlier workshops on reinforcement learning and agents for IR, DeepSearch is a new half-day workshop at WSDM 2027. Whereas earlier agent-based IR workshops used agents to optimize classic tasks such as ranking and recommendation, DeepSearch treats the search agent itself as a new search paradigm and studies it end to end, from reasoning, planning and learning to deep research, co-design with search engines, evaluation, applications and trust. The half-day, in-person program in Hong Kong will feature a keynote, an industry talk, paper presentations, a live demonstration, a panel and structured group discussions, and will produce a short report on the open problems of this emerging field.
+DeepSearch is a half-day, in-person workshop at WSDM 2027 that studies the search agent itself as a new search paradigm, from reasoning and learning to evaluation, co-design with search engines, and trust.
 
 ## Topics of Interest
 
@@ -32,15 +32,15 @@ The topics follow the life cycle of a deep search agent, from how it decides and
 
 ## Submission Instructions
 
-All submissions (.pdf format) must be written in English and use the ACM `sigconf` template available at <http://www.acm.org/publications/proceedings-template>. We invite research papers of up to 8 pages and short, position, resource or demonstration papers of up to 4 pages. References do not count against the page limit. Position papers, negative results, new benchmarks and reports on deployed systems are especially welcome.
+Submissions must be written in English, 4–8 pages (including references), and use the same template as the WSDM main conference. Position papers, negative results, new benchmarks and reports on deployed systems are especially welcome.
 
 All submissions will be double-blind peer reviewed by at least two program committee members and judged by their relevance to the workshop, novelty, technical soundness, and potential to stimulate discussion.
 
-Accepted papers will appear in the WSDM 2027 Companion Proceedings. Subject to the proceedings policy, authors of already-published work may choose a non-archival presentation.
+Accepted papers will be published in the **WSDM 2027 Companion Proceedings**. Subject to the proceedings policy, authors of already-published work may choose a non-archival presentation.
 
 Every accepted paper must be presented in person by at least one of its authors, either as an oral talk or as a spotlight followed by a poster. In line with the WSDM 2027 policy, there will be no remote presentations.
 
-Submission website: TBD
+Submission website: <https://cmt3.research.microsoft.com/WSDM2027/Track/13/Submission/Create>. When submitting, please select **Workshop - DeepSearch Research Agents**.
 
 ## Awards
 
@@ -50,13 +50,13 @@ DeepSearch will select a **Best Paper Award** and a **Best Student Paper Award**
 
 Time zone: Anywhere on Earth (AoE)
 
-Submission deadline: Mid-December 2026 (tentative)
+Workshop website and CFP: October 20, 2026
 
-Acceptance notification: Mid-January 2027 (tentative)
+Paper submission deadline: November 30, 2026
 
-DeepSearch Workshop: February 19, 2027
+Paper notification: December 18, 2026
 
-<p class="note">Exact deadlines will follow the WSDM 2027 Companion Proceedings schedule and will be posted here.</p>
+Workshop day: February 19, 2027
 
 ## Attendance
 
@@ -75,4 +75,4 @@ DeepSearch Workshop: February 19, 2027
 
 ## Contact
 
-If you have any questions, please contact us at [maolwang2@cityu.edu.hk](mailto:maolwang2@cityu.edu.hk).
+If you have any questions, please contact us at [morin.wang@cityu.edu.hk](mailto:morin.wang@cityu.edu.hk).

@@ -40,7 +40,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-a { color: var(--theme); text-decoration: none; }
+a { color: var(--theme); text-decoration: none; overflow-wrap: anywhere; }
 a:hover { color: var(--hover); text-decoration: underline; }
 strong, b { font-weight: 500; }
 p { margin: 0 0 1rem; }
@@ -106,7 +106,6 @@ hr { margin: 1rem 0; border: 0; border-top: 1px solid var(--divider); }
 .card {
   display: flex;
   align-items: center;
-  min-height: 152px;
   padding: 8px 0;
   overflow: hidden;
   border-radius: 4px;
@@ -120,15 +119,17 @@ a.card:hover {
   text-decoration: none;
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
 }
+/* Photos keep their own proportions and are never cropped: fixed height, width follows the photo. */
 .card-img {
   flex: none;
-  width: 136px;
-  height: 136px;
-  object-fit: cover;
+  display: block;
+  width: auto;
+  height: 170px;
 }
 .avatar {
   display: grid;
   place-items: center;
+  width: 128px;
   background: #eef2f0;
   color: #8a958f;
   font-size: 40px;
@@ -181,9 +182,8 @@ tbody tr:nth-of-type(odd) { background: var(--stripe); }
 }
 
 @media (max-width: 420px) {
-  .card { min-height: 120px; }
-  .card-img { width: 104px; height: 104px; }
-  .avatar { font-size: 32px; }
+  .card-img { height: 136px; }
+  .avatar { width: 100px; font-size: 32px; }
 }
 
 @media print {
