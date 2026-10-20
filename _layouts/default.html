@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title }} | {{ site.title }}</title>
   <meta name="description" content="{{ site.description }}">
-  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg?v={{ site.github.build_revision }}">
   <link rel="preload" href="assets/fonts/roboto-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/main.css?v={{ site.github.build_revision }}">
 </head>
 <body>
   <nav class="navbar" aria-label="Main">

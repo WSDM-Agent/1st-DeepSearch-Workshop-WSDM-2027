@@ -6,7 +6,7 @@ nav: about
 
 # DeepSearch: 1st Workshop on Deep Search and Research Agents for the Web
 
-<div class="logo"><img src="assets/img/logo.svg" alt="DeepSearch workshop logo" width="360" height="360"></div>
+<div class="logo"><img src="assets/img/logo.svg?v={{ site.github.build_revision }}" alt="DeepSearch workshop logo" width="360" height="360"></div>
 
 <hr>
 
