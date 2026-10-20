@@ -1,0 +1,13 @@
+# GitHub Pages builds this site with Jekyll automatically; no plugins or Actions are needed.
+title: "DeepSearch: 1st Workshop on Deep Search and Research Agents for the Web"
+short_title: "DeepSearch @ WSDM 2027"
+description: "DeepSearch: 1st Workshop on Deep Search and Research Agents for the Web, a half-day in-person workshop at WSDM 2027 in Hong Kong."
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

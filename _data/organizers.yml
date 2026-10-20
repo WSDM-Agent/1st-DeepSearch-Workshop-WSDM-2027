@@ -1,0 +1,39 @@
+# Organizers, shown on the About page in this order.
+# To add a photo: put the image in assets/img/people/ and add "photo: <file name>".
+- name: "Maolin Wang"
+  affiliation: "City University of Hong Kong"
+  photo: "maolin-wang.jpg"
+  url: "https://scholars.cityu.edu.hk/en/persons/maolwang2/"
+
+- name: "Wanyu Wang"
+  affiliation: "City University of Hong Kong"
+  initials: "WW"
+
+- name: "Pengyue Jia"
+  affiliation: "City University of Hong Kong"
+  photo: "pengyue-jia.jpg"
+  url: "https://jia-py.github.io/"
+
+- name: "Qidong Liu"
+  affiliation: "Xi’an Jiaotong University"
+  photo: "qidong-liu.jpg"
+  url: "https://liuqidong07.github.io/"
+
+- name: "Chenyi Zhuang"
+  affiliation: "Ant Group"
+  initials: "CZ"
+
+- name: "Yu Yang"
+  affiliation: "City University of Hong Kong"
+  photo: "yu-yang.jpg"
+  url: "https://yuyangcs.github.io/"
+
+- name: "Jianliang Xu"
+  affiliation: "Hong Kong Baptist University"
+  photo: "jianliang-xu.jpg"
+  url: "https://www.comp.hkbu.edu.hk/~xujl/"
+
+- name: "Qing Li"
+  affiliation: "The Hong Kong Polytechnic University"
+  photo: "qing-li.jpg"
+  url: "https://www4.comp.polyu.edu.hk/~csqli/"

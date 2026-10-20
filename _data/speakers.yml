@@ -1,0 +1,10 @@
+# Invited speakers, shown on the About page.
+# To add a photo: put the image in assets/img/people/ and add "photo: <file name>".
+- name: "Rui Liu"
+  affiliation: "Senior Technical Expert, Huawei"
+  initials: "RL"
+
+- name: "Xiang Zheng"
+  affiliation: "SciencePal Team & HKAI-Sci"
+  photo: "xiang-zheng.jpg"
+  url: "https://scholars.cityu.edu.hk/en/persons/xzheng235/"

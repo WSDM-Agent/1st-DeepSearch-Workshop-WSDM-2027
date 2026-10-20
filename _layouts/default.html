@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="preload" href="assets/fonts/roboto-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <nav class="navbar" aria-label="Main">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><span class="full">{{ site.title }}</span><span class="short">{{ site.short_title }}</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html"{% if page.nav == "about" %} aria-current="page"{% endif %}>About</a></li>
+        <li><a href="schedule.html"{% if page.nav == "schedule" %} aria-current="page"{% endif %}>Schedule</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container page">
+    <article>
+{{ content }}
+    </article>
+  </main>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" role="img" aria-label="DeepSearch logo">
+  <defs>
+    <linearGradient id="lens" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e3f4e9"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="180" cy="180" r="172" fill="#f3f8f5"/>
+  <circle cx="180" cy="180" r="140" fill="none" stroke="#b7dcc4" stroke-width="2.5" stroke-dasharray="1 10" stroke-linecap="round"/>
+
+  <!-- Satellites: the web, documents, an index -->
+  <g fill="#fff" stroke="#cfe5d7" stroke-width="2">
+    <circle cx="81" cy="81" r="27"/>
+    <circle cx="279" cy="81" r="27"/>
+    <circle cx="81" cy="279" r="27"/>
+  </g>
+  <g fill="none" stroke="#0b2545" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="81" cy="81" r="12"/>
+    <ellipse cx="81" cy="81" rx="5.5" ry="12"/>
+    <path d="M69 81h24"/>
+    <path d="M272 68h10l7 7v19h-17z"/>
+    <path d="M282 68v7h7M276 81h9M276 87h6"/>
+    <ellipse cx="81" cy="270" rx="11" ry="4"/>
+    <path d="M70 270v18c0 2.2 4.9 4 11 4s11-1.8 11-4v-18"/>
+    <path d="M70 279c0 2.2 4.9 4 11 4s11-1.8 11-4"/>
+  </g>
+
+  <!-- Magnifier -->
+  <path d="M222 222l46 46" stroke="#0b2545" stroke-width="22" stroke-linecap="round"/>
+  <path d="M243 243l25 25" stroke="#00ab37" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="170" cy="170" r="72" fill="url(#lens)" stroke="#0b2545" stroke-width="13"/>
+
+  <!-- A search trajectory ending in an answer -->
+  <path d="M128 190L151 146 180 178 207 138" fill="none" stroke="#0b2545" stroke-opacity=".45" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#fff" stroke="#0b2545" stroke-width="3.5">
+    <circle cx="128" cy="190" r="7"/>
+    <circle cx="151" cy="146" r="7"/>
+    <circle cx="180" cy="178" r="7"/>
+  </g>
+  <circle cx="207" cy="138" r="10" fill="#00ab37"/>
+
+  <!-- Sparkles -->
+  <path d="M232 96Q232 108 244 108Q232 108 232 120Q232 108 220 108Q232 108 232 96Z" fill="#00ab37"/>
+  <path d="M258 128Q258 134 264 134Q258 134 258 140Q258 134 252 134Q258 134 258 128Z" fill="#00ab37" opacity=".7"/>
+</svg>
