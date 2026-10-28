@@ -32,6 +32,8 @@ The topics follow the life cycle of a deep search agent, from how it decides and
 
 ## Submission Instructions
 
+<p><strong style="color:#d00000">For papers whose first author is a student, please state in the abstract: "(The first author of this paper is a student)". This statement will be removed in the final published version.</strong></p>
+
 Submissions must be written in English, 4–8 pages (including references), and use the same template as the WSDM main conference. Position papers, negative results, new benchmarks and reports on deployed systems are especially welcome.
 
 All submissions will be double-blind peer reviewed by at least two program committee members and judged by their relevance to the workshop, novelty, technical soundness, and potential to stimulate discussion.
