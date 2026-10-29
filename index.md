@@ -34,13 +34,13 @@ The topics follow the life cycle of a deep search agent, from how it decides and
 
 <p><strong style="color:#d00000">For papers whose first author is a student, please state in the abstract: "(The first author of this paper is a student)". This statement will be removed in the final published version.</strong></p>
 
-Submissions must be written in English, 4–8 pages (including references), and use the same template as the WSDM main conference. Position papers, negative results, new benchmarks and reports on deployed systems are especially welcome.
+Submissions must be written in English and formatted using the ACM sigconf template. The maximum paper length is <strong style="color:#d00000">5 pages</strong>, including references. Position papers, negative results, new benchmarks and reports on deployed systems are especially welcome.
 
 All submissions will be double-blind peer reviewed by at least two program committee members and judged by their relevance to the workshop, novelty, technical soundness, and potential to stimulate discussion.
 
-Accepted papers will be published in the **WSDM 2027 Companion Proceedings**. Subject to the proceedings policy, authors of already-published work may choose a non-archival presentation.
+By default, all accepted papers will be included in the **WSDM 2027 Companion Proceedings**. Authors who prefer not to have their accepted paper included in the Companion Proceedings may opt out by contacting the organizers.
 
-Every accepted paper must be presented in person by at least one of its authors, either as an oral talk or as a spotlight followed by a poster. In line with the WSDM 2027 policy, there will be no remote presentations.
+Every accepted paper must be presented in person by at least one of its authors, either as an oral talk or as a spotlight followed by a poster. In line with the WSDM 2027 policy, there will be no remote presentations. Any accepted paper that cannot be presented in person will be excluded from the Companion Proceedings.
 
 Submission website: <https://cmt3.research.microsoft.com/WSDM2027/Track/13/Submission/Create>. When submitting, please select **Workshop - DeepSearch Research Agents**.
 
